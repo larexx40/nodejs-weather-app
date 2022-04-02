@@ -1,4 +1,7 @@
 node_modules
 config.js
-
-
+test.ejs
+run.js
+public/images
+views/find.ejs
+views/search.ejs

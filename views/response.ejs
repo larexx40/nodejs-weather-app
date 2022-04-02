@@ -15,6 +15,9 @@
     <p><%= date %> </p>
     <p><%= day %> </p>
     <p><%= month %> </p>
-    <p><%= result %> </p>
+    <p><%= JSON.stringify(weather) %>
+    <p>location is <%= weather.name %> , <%= weather.sys.country %> </p>
+    
+    <p>temperature is <%= weather.main.temp %> </p>
 </body>
 </html>
